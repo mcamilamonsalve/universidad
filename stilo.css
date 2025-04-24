@@ -1,0 +1,133 @@
+*{box-sizing: border-box;}
+h1{font-size: 3.5em;}
+h2{font-size: 2.7em;}
+h3{font-size: 2em;}
+p{font-size: 1.25em;}
+ul{list-style: none;}
+li{font-size: 1.25em;}
+body{
+    font-family:"trebuchet MS",verdane,sans-serif;
+    margin: 0;
+}
+img{
+    margin: 0;
+    padding:0;
+    width: 8em;
+    height: 8em;
+}
+button{
+    align-items: center;
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid #19171b;
+    box-shadow: 2px 2px 10px #1e1c2f; 
+}
+button:hover{
+    background-color: #b3a0bd;
+    align-items: center;
+}
+.contener{
+    max-width: 1400px;
+    margin:auto;
+    text-align: center;
+}
+header{
+    background-color:#986cae;
+}
+header.logo{
+    margin: 0;
+    padding: 10px 20px;
+}
+header.contener{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header nav{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+header a{
+    padding: 6px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    align-items:center;
+    flex-direction: column;
+}
+header a:hover{
+    color: #4d1868;
+    align-items: center;
+    flex-direction: column;
+}
+.datos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: #f3f6f8;
+    background-image:linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    , url("imagen/plendoor.png");
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position:center center ;
+}
+#section.container{
+    text-align: center;
+    padding: 200px 12px;
+}
+#informacion{
+    background-color: rgb(30, 30, 30);
+    color: white;
+    text-align: center;
+}
+#informacion .contener{
+    padding: 100px 0px;
+}
+#informacion p{
+    display:none ;
+}
+#informacion .tarjeta{
+    padding: 4px;
+    margin: 0;
+}
+.carta:first-child{
+    background-image:linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+        )
+    ,url("imagen/img.png");
+    background-position: center center;
+    background-size:cover;
+}
+.carta:nth-child(2){   
+    background-image:linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("imagen/m.png"); 
+}
+.carta:nth-child(3){
+    background-image:linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("imagen/t.png");
+}
+#contacto{
+    align-items: center;
+}
