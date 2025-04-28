@@ -11,11 +11,11 @@
 </head>
 <body>
     <header>
-        <h1>
-            plendoor
-        </h1>
-        <nav class="contener">
-            <img src="imagen/diseño.png" class="logo">
+        <nav class="nav-var">
+            <img src="imagen/Diseño_sin_título-removebg-preview.png">
+            <h1>
+                plendoor
+            </h1>
             <ul>
                 <a href="#"> quienes somos</a>
                 <a href="#">servicio</a>
@@ -23,6 +23,7 @@
             </ul>
         </nav>
     </header>
+
     <section class="datos" >
         <div id="principio">
             <h1>plendoor</h1>
@@ -62,22 +63,23 @@
             </div>
     </section>
     <section id="contacto">
-        <div class="contener">
-            <di class="carta">
-                <h3>contacto</h3>
-                <form action="my_formulario">
-                    <ul>
-                        <label for="name">
-                            correo
-                            <input type="ingresa el correo">
-                        </label>
-                    </ul>
-                    <ul>
-                        <label for="texto">mensaje
-                            <input type="ingresa el mensaje ">
-                        </label>
-                    </ul>
-                    <button class="btn">enviar</button>
+        <div class="contacto">
+            <di class="formulario">
+                <form action="https://formsubmit.co/mpulgarinmonsalve@gmail.com" method="POST" >
+                    <h2>contacto</h2>
+                    <div class="form-txto">
+                        <a href="#">politica de privacidad</a>
+                        <a href="#">terminos y condiciones</a>
+                    </div>
+                    <div class="inpt-group">
+                        <input type="text" name="name" placeholder="nombre">
+                        <input type="tel" name="phone" placeholder="telefono">
+                        <input type="email" name="email" placeholder="correo">
+                        <textarea name="message" cols="30" rows ="5" placeholder="mensaje"></textarea>
+                        <input type="submit" class="btn" value="enviar">
+                        <input type="hidden" name="_next" value="http://127.0.0.1:5500/#">
+                        <input type="hidden" name="_captcha" value="false">
+                    </div>
                 </form>
             </di>
         </div>
